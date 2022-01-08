@@ -38,7 +38,7 @@ function App() {
   ]);
   return (
     <>
-      <Header title="My Todos List" searchBar={true}/>
+      <Header title="Todo-manager" searchBar={true}/>
       <Todos todos={todos} onDelete={onDelete}/>
       <Footer/>
   
