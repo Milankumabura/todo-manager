@@ -1,6 +1,7 @@
 import './App.css';
 import Header from "./MyComponents/Header";
 import {Todos} from "./MyComponents/Todos";
+import {AddTodo} from "./MyComponents/AddTodo";
 import {Footer} from "./MyComponents/Footer";
 import React, {useState} from 'react';
 
@@ -39,6 +40,7 @@ function App() {
   return (
     <>
       <Header title="Todo-manager" searchBar={true}/>
+      <AddTodo/>
       <Todos todos={todos} onDelete={onDelete}/>
       <Footer/>
   
